@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1872893f22f0cb443af84f4f9b3700b9, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  levelDuration: 60
+  minSpawnDistance: 7
+  maxSpawnDistance: 12
+  enemyHealth: 50
+  enemySpeed: 3
+  enemyDamage: 10
+  enemyHitRate: 1.5
+  waves:
+  - spawnCount: 2
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 10
+  - spawnCount: 3
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 8
+  - spawnCount: 3
+    enemyPerSpawn: 3
+    spawnDelay: 1
+    waveDelay: 6
+  - spawnCount: 3
+    enemyPerSpawn: 1
+    spawnDelay: 1
+    waveDelay: 10
+  - spawnCount: 4
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 5
+  - spawnCount: 5
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 5
+  - spawnCount: 6
+    enemyPerSpawn: 3
+    spawnDelay: 1
+    waveDelay: 5
+  - spawnCount: 7
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 10
+  - spawnCount: 8
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 5
+  - spawnCount: 9
+    enemyPerSpawn: 3
+    spawnDelay: 1
+    waveDelay: 5
+  - spawnCount: 10
+    enemyPerSpawn: 3
+    spawnDelay: 1
+    waveDelay: 10
+  - spawnCount: 10
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 4
+  - spawnCount: 10
+    enemyPerSpawn: 1
+    spawnDelay: 1
+    waveDelay: 3
+  - spawnCount: 10
+    enemyPerSpawn: 3
+    spawnDelay: 1
+    waveDelay: 3
+  - spawnCount: 10
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 10
+  - spawnCount: 10
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 2
+  - spawnCount: 10
+    enemyPerSpawn: 2
+    spawnDelay: 1
+    waveDelay: 2
