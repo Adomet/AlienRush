@@ -118,6 +118,7 @@ public class PlayerController : MonoBehaviour
         bloodParticle.Play();
         if (health <= 0)
         {
+            isDying = true;
             animator.SetBool("isDead", true);
         }
 
